@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #eee;
+    padding: 20px;
+    width: 250px;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+main {
+    padding: 40px;
+    margin-left: 280px;
+}
+
+/* Headings styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Headings styles with added font weight */
+h1,
+h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/* Note styles */
+.note {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
