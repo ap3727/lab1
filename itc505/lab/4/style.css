@@ -72,6 +72,14 @@ h2 {
     border-radius: 5px;
 }
 
+
+article {
+    padding: 40px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     nav {
